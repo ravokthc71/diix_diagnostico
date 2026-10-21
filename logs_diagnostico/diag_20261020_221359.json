@@ -1,0 +1,27 @@
+{
+    "timestamp": "2026-10-20 22:13:59",
+    "cpu": {
+        "processador": "AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD",
+        "nucleos_fisicos": 4,
+        "nucleos_logicos": 8,
+        "uso_cpu": 14.5
+    },
+    "ram": {
+        "total_gb": 7.24,
+        "disponivel_gb": 0.18,
+        "uso_porcentagem": 97.5
+    },
+    "disk": {
+        "total_gb": 475.83,
+        "livre_gb": 25.89,
+        "uso_porcentagem": 94.6,
+        "suficiente_para_pesos": true
+    },
+    "cuda": {
+        "disponivel": false,
+        "quantidade": 0,
+        "gpus": [],
+        "aviso_configuracao": "Atenção: A GPU não foi detectada pelo PyTorch. Verifique se o ambiente (ex: Kaggle) está configurado com Accelerator ativado (GPU T4x2 / P100) antes de continuar."
+    },
+    "huggingface_acesso": true
+}
